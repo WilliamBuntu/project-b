@@ -1,0 +1,170 @@
+.teacher-hello{
+    position: absolute;
+width: 275px;
+height: 74px;
+left: 30px;
+top: 121px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 27px;
+/* display: flex; */
+align-items: center;
+
+color: #FFFFFF;
+
+}
+
+body {
+    font-family: 'Georgia', serif;
+  }
+.teacher-name{
+    position: absolute;
+width: 610px;
+height: 94px;
+left: 30px;
+top: 170px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 800;
+font-size: 45px;
+line-height: 30px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+.teacher-descr{
+    position: absolute;
+width: 610px;
+height: 59px;
+left: 30px;
+top: 250px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.teacher-button{
+    position: absolute;
+width: 231px;
+height: 66px;
+left: 50px;
+top: 340px;
+background: none;
+color:white;
+font-size:large;
+
+border: 1px solid #0193DC;
+border-radius: 15px;
+}
+.teacher-button:hover{
+background: #0193DC;
+}
+.teacher-photo{
+width: 421px;
+height: 371px;
+left: 628px;
+top: 125px;
+
+background: url('../../assets/images/recourses/bb.jpg');
+/* filter: drop-shadow(48px 4px 4px rgba(0, 0, 0, 0.25)); */
+border-radius: 20px;
+}
+.teacher-photo_contaner{
+    width: 421px;
+    height: 371px;
+    left: 628px;
+    margin-left:628px ;
+    background: #FFFFFF;
+    margin-top: 5px;
+}
+.about-me{
+    position: absolute;
+width: 264px;
+height: 62px;
+left: 600px;
+top: 522px;
+
+/* font-family: 'Poppins'; */
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+.lne{
+    position: absolute;
+width: 90px;
+height: 5px;
+left: 615px;
+top: 566px;
+
+background: #9DD7F2;
+}
+.teacher-photo1{
+    
+position: absolute;
+width: 400px;
+height: 350px;
+left: 95px;
+top: 610px;
+background: url('../../assets/images/recourses/bb.jpg');
+object-fit:contain;
+border-radius: 20px;
+filter: drop-shadow(48px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.who-am{
+    position: absolute;
+width: 675px;
+height: 67px;
+left: 806px;
+top: 624px;
+
+/* font-family: 'Poppins'; */
+font-style: normal;
+font-weight: 500;
+font-size: 29px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.who-dtals{
+    position: absolute;
+width: 654.27px;
+height: 267px;
+left: 602px;
+top: 636px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150.38%;
+/* or 20px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #2B2B36;
+}

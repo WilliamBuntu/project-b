@@ -1,24 +1,33 @@
 import React from 'react'
 import './Navigation.css';
-import { Link, } from "react-router-dom";
+import { Link } from "react-router-dom";
+import img from "../Navigation/img.jpg"
+
+
+
+
 
 const Navigation = () => {
   return (
     <div>
       {/* Navigation bar to be imported in all pages */}
       <header className="header">
-      <Link to={"/"} >New Generation Academy<span><br></br>Transformed For Community</span></Link>
+        <div className="heads">
+      <img src={img} alt="notfound" style={{height: "4vh", marginLeft: "12px"}}/>
+      <Link to={"/"} className="log">New Generation Academy<span style={{color: "white",}}><br></br>Transformed For Community</span></Link>
+      </div>
         <ul>
           <Link to={"/"} ><li>Home Page</li></Link>
-          <Link to={"/About Us"} ><li>About Us</li></Link>
+          <Link to={"/AboutPage"} ><li>About Us</li></Link>
           <Link to={"/Programs"}><li>Programs</li></Link>
-          <Link to={"/In the News"}><li>In The News</li></Link>
+          <Link to={"/NewsPage"}><li>In The News</li></Link>
           <Link to={"/News"}><li>News</li></Link>
           <Link to={"/Contact Us"}><li>Contact Us</li></Link>
-          <Link to={"/Staff mail"}><li>Staff mail</li></Link>
+          <Link to={"/TeacherPage"}><li>Staff mail</li></Link>
           <Link to={"/dashboard/starter"}><li>dash</li></Link>
           </ul>
       </header>
+      
     </div>
   )
 }

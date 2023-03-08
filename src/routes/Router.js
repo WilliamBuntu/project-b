@@ -1,6 +1,8 @@
 import { lazy } from "react";
 import { Navigate } from "react-router-dom";
-
+import AboutPage from "../components/AboutPage/aboutPage.js";
+import NewsPage from "../components/NewsPage/NewsPage.js";
+import TeacherPage from "../components/TeacherPage/TeacherPage.js";
 /****Layouts*****/
 const FullLayout = lazy(() => import("../layouts/FullLayout.js"));
 
@@ -16,13 +18,34 @@ const Grid = lazy(() => import("../views/ui/Grid"));
 const Tables = lazy(() => import("../views/ui/Tables"));
 const Forms = lazy(() => import("../views/ui/Forms"));
 const Breadcrumbs = lazy(() => import("../views/ui/Breadcrumbs"));
-const Homepage = lazy(() => import( "../components/Homepage/Homepage.js"));
+const Homepage = lazy(() => import( "../components/Homepage/Homepage"));
+const AbouPage = lazy(() => import( "../components/AboutPage/aboutPage"));
+const NewsPge = lazy(() => import( "../components/NewsPage/NewsPage"));
+const TeachePage= lazy(()=>import('./../components/TeacherPage/TeacherPage'));
+
 /*****Routes******/
+
 
 const ThemeRoutes = [
   {
 path: "/",
 element:<Homepage/>,
+  },
+  {
+    path: "/AboutPage",
+element:<AboutPage/>
+    
+  },
+
+  {
+    path: "/NewsPage",
+element:<NewsPage/>
+    
+  },
+  {
+    path: "/TeacherPage",
+element:<TeacherPage/>
+    
   },
   {
     
