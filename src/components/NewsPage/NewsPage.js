@@ -10,7 +10,7 @@ const NewsPage = () => {
     <div>
       <Navigation/>
       <div >
-      <img src={image} alt="not found" style={{height: "75vh",top:"112px", width: "100%", backGroundPosition: "center", backGroundSize: "cover"}}/>
+      <img src={image} alt="not found" style={{height: "60vh",top:"112px", width: "100%", backGroundPosition: "center", backGroundSize: "cover"}}/>
     <h1 className="ttle">In The News </h1>
         <div className='t-part'>
         <p className='t-head'>  Annoucements </p>

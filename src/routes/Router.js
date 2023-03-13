@@ -3,6 +3,8 @@ import { Navigate } from "react-router-dom";
 import AboutPage from "../components/AboutPage/aboutPage.js";
 import NewsPage from "../components/NewsPage/NewsPage.js";
 import TeacherPage from "../components/TeacherPage/TeacherPage.js";
+import Staff from './../components/staff/Staff';
+
 /****Layouts*****/
 const FullLayout = lazy(() => import("../layouts/FullLayout.js"));
 
@@ -22,6 +24,8 @@ const Homepage = lazy(() => import( "../components/Homepage/Homepage"));
 const AbouPage = lazy(() => import( "../components/AboutPage/aboutPage"));
 const NewsPge = lazy(() => import( "../components/NewsPage/NewsPage"));
 const TeachePage= lazy(()=>import('./../components/TeacherPage/TeacherPage'));
+const staff = lazy (()=>import('../components/staff/Staff'))
+
 
 /*****Routes******/
 
@@ -34,6 +38,11 @@ element:<Homepage/>,
   {
     path: "/AboutPage",
 element:<AboutPage/>
+    
+  },
+  {
+    path: "/Staff",
+element:<Staff/>
     
   },
 

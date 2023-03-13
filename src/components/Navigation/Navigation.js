@@ -19,11 +19,11 @@ const Navigation = () => {
         <ul>
           <Link to={"/"} ><li>Home Page</li></Link>
           <Link to={"/AboutPage"} ><li>About Us</li></Link>
-          <Link to={"/Programs"}><li>Programs</li></Link>
+          <Link to={"/Staff"}><li>Staff </li></Link>
           <Link to={"/NewsPage"}><li>In The News</li></Link>
           <Link to={"/News"}><li>News</li></Link>
           <Link to={"/Contact Us"}><li>Contact Us</li></Link>
-          <Link to={"/TeacherPage"}><li>Staff mail</li></Link>
+          <Link to={"/TeacherPage"}><li>One teacher</li></Link>
           <Link to={"/dashboard/starter"}><li>dash</li></Link>
           </ul>
       </header>
