@@ -242,15 +242,14 @@ height: 9px;
 left: 780px;
 top: 1197px;
 
-background: #BBBBBB;
+background: #d4B;
 
 }
 .bar-line{
-    position:absolute;
+ position:absolute;
     width: 50%;
     background: #0193DC;
-    left: 0px;
-    top: 0px;
+    top: 1197;
 }
 .Skill-decr{
     position: absolute;
@@ -461,6 +460,9 @@ border-radius: 10px;
 border: none;
 padding-left: 30px;
     }
+    .input-name:focus{
+        outline: none;
+    }
 .input-email{
     position: absolute;
     width: 254px;
@@ -471,6 +473,10 @@ padding-left: 30px;
 background: #B8B8B8;
 border-radius: 10px;
 border: none;
+}
+.input-email:focus{
+    outline: none;
+
 }
 .input-subject{
     position: absolute;
@@ -484,6 +490,11 @@ border-radius: 10px;
 padding-left: 30px;
 border: none;
 }
+.input-subject:focus{
+    outline: none;
+
+}
+
 .input-message{
     position: absolute;
 width: 514px;
@@ -495,10 +506,11 @@ background: #B8B8B8;
 border-radius: 10px;
 border: none;
 padding-left: 30px;
+padding-right: 20px;
 padding-top: 10px;
 }
-.input-message:active{
-    border: none;
+.input-message:focus{
+    outline: none;
 }
 .contact-button{
     position: absolute;
@@ -629,4 +641,74 @@ color: #30393B;
     align-items: center;
     
     color: #30393B;
+}
+@media screen  and (max-width: 550px) {
+    .teacher-name{
+        font-size: 29px;
+        left: 25px;
+        top: 170px;
+
+    }
+    .teacher-hello{
+        font-size: 24px;
+        top: 156px;
+    }
+    .teacher-button{
+        width: 139px;
+        height: 50px;
+        left: 25px;
+    }
+    .teacher-photo1{
+        display: none;
+    }
+    .about-me{
+        top:600px;
+        left: 120px;
+    }
+    .pc{
+        height: 300px;
+
+    }
+    .lne{
+        left: 127px;
+        top: 646px;
+    }
+    .who-am{
+        left: 100px;
+        top: 660px;
+        font-size: 27px;
+    }
+    .who-dtals{
+        left: 2px;
+        width: 100%;
+        top: 720px;
+        align-items: normal;
+        justify-content: left;
+        font-size: 19px;
+        height: 100%;
+        font-weight: 300;
+
+    }
+    .my-sll{
+        left: 120px;
+        top: 970px;
+    }
+    .lne-1{
+        left: 129px;
+        top: 1015px;
+    }
+    .teacher-skill_t{
+        left: 20px;
+        top:1030px ;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .Skill-decr{
+        left: 7px;
+        top: 1110px;
+        width: 380px;
+        font-size: 19px;
+        align-content: center;
+        line-height: 45.2px;
+    }
 }

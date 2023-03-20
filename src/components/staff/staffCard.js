@@ -1,11 +1,12 @@
 import React from 'react'
 import './staffCard.css'
-import profe3 from '../../assets/images/recourses/profe3.avif'
+
+import { Link } from 'react-router-dom';
 const StaffCard = (props) => {
   return (
-    <div className='teacher-card'>
-    <img src={profe3} alt='TeacherPhoto' className='photo_teacher'></img>
-      <p className='teacher-name1'> {props.p} </p>
+    <div >
+    <img src={props.imeg} alt='TeacherPhoto' className='photo_teacher'></img>
+      <p className='teacher-name1' > <Link to={"/TeacherPage"}> {props.p} </Link>  </p>
       <p1 className='teacher-position'> {props.p1}</p1>
       
 

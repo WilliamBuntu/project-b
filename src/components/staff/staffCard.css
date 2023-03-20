@@ -1,7 +1,7 @@
 .photo_teacher{
     position: absolute;
-width: 379px;
-height: 277px;
+width: 300px;
+height: 297px;
 left: 0px;
 top: 0px;
 background-size:cover;
@@ -13,16 +13,20 @@ border-radius: 5px;
 .teacher-name1{
    
     position: absolute;
-    font-size:25px;
-    top:300px;
-    left: 32px;
+    width: 300px;
+    font-size:23px;
+    top:310px;
+    left: 22px;
+    
     color: dodgerblue;
     cursor: pointer;
+    text-decoration: none;
+    
 
 }
 .teacher-position{
     position: absolute;
-    font-size:20px;
-    top:342px;
-    left: 116px;
+    font-size:19px;
+    top:346px;
+    left: 76px;
 }

@@ -34,15 +34,15 @@ color: #0C101A;
     
 position: absolute;
 width: 350px;
-height: 48px;
+height: 46px;
 left: 9px;
-top: 300px;
+top: 295px;
 
-font-family: 'Poppins';
+/* font-family: 'Poppins'; */
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 14px;
-line-height: 20px;
+line-height: 16px;
 /* or 171% */
 
 letter-spacing: 0.5px;
@@ -50,5 +50,10 @@ cursor: default;
 
 /* medium dark */
 
-color: #919FAE;
+color: black;
+}
+.btn{
+    position:absolute;
+    top: 366px;
+    left: 120px;
 }

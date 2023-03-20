@@ -15,9 +15,9 @@ const TeacherPage = () => {
     <div>
     
       <Navigation/>
-      <div><img src={image} alt="not found" style={{height: "69vh",top:"112px", width: "100%", backGroundPosition: "center", backGroundSize: "cover"}}/>
+      <div><img src={image} alt="not found" className='pc' style={{height: "69vh",top:"112px", width: "100%", backGroundPosition: "center", backGroundSize: "cover"}}/>
       <p className='teacher-hello'>Hello, l'm</p>
-      <p className='teacher-name'>Teachers Name,</p>
+      <p className='teacher-name'>Teachers Name</p>
       <p className='teacher-descr'>NGA Teacher</p>
       <button className='teacher-button'>Contact me  <BsArrowRight/></button>
     

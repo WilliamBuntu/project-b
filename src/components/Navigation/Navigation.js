@@ -16,7 +16,7 @@ const Navigation = () => {
       <img src={img} alt="notfound" style={{height: "4vh", marginLeft: "12px"}}/>
       <Link to={"/"} className="log">New Generation Academy<span style={{color: "white",}}><br></br>Transformed For Community</span></Link>
       </div>
-        <ul>
+        <ul >
           <Link to={"/"} ><li>Home Page</li></Link>
           <Link to={"/AboutPage"} ><li>About Us</li></Link>
           <Link to={"/Staff"}><li>Staff </li></Link>

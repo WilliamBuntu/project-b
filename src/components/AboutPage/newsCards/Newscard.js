@@ -1,14 +1,17 @@
 import React from 'react'
 import './Newscards.css'
-const Newscard = () => {
+import { Button } from 'reactstrap';
+const Newscard = (props) => {
   return (
     <div>
-    <div className='news-card_image'>
+    <div className='news-card_image' > 
+    <img src={props.imeg} alt='TeacherPhoto' className='news-card_image'></img>
     </div>
-    <p className='news-card_title'>  Teaching and Learning Activities  2023</p>
-    <p className='news-card_content'>I'm sorry for the pain, let's get rid of the pain,
-    I'm sorry for the pain, let's get rid of the pain,
-     let's get rid of the water  so tha we can strive <span style={{color:'#2BA7E2',fontWeight:700, cursor:'pointer'}}>Read More... </span></p>
+    <p className='news-card_title'>  {props.t}</p>
+    <p className='news-card_content'>{props.c}</p>
+    <Button className="btn" color="primary" size="sm">
+                  Read More
+                </Button>
     </div>
   )
 }
