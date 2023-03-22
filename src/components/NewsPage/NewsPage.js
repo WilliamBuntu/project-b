@@ -33,23 +33,20 @@ const NewsPage = () => {
      <div className='news-box'>
 
        <Newscard imeg={day} t='Understanding Black Excellence  2023'  
-       c="As a lead up to Black History Month, Black Excellence Day is
-        a day to rejoice Black history and learn about Black stories, Black art and Black people, 
+       c="As a lead Black art and Black people, 
        and a day to stand in solidarity with Black Canadians.. "/>
        
      </div>
      <div className='news-box_1'>
-     <Newscard imeg={hhh} t='Chatsworth House' c='Chatsworth House is a stately home in the Derbyshire Dales,
-     3.5 miles north-east of Bakewell and 9 miles west of Chesterfield, England. 
-    The seat of the Duke of Devonshire,
+     <Newscard imeg={hhh} t='Chatsworth House' c='Chatsworth House is a stately home  Dales,
+     3.5 miles north-east of Bakewell and 9 miles west of Chesterfi,
      '  />
        
      </div>
 
      <div className='news-box_2'>
-     <Newscard  imeg={meet}  t='Summit of New England' c='he Dun & Bradstreet Data Cloud offers the world’s 
-     most comprehensive business data and analytical insights to
-      power today’s most crucial business needs. That’s why 90% of the Fortune 500' />
+     <Newscard  imeg={meet}  t='Summit of New England' c='he Dun & Bradstreet  Cloud offers the world’s 
+     most comprehensive That’s why 90% of the Fortune 500' />
      </div>  
      <div className='new-pc'>
      </div>
@@ -65,33 +62,27 @@ const NewsPage = () => {
      <div >
      <div className='news-box_3' >
      <Newscard  imeg={black}  t='The Black Excellence Network' c='Black people have achieved so much all around the
-      world and it is only right that we should acknowledge them and their work. 
-     As well as understanding that Black Excellence ' />
+      world and it is only right that we  ' />
      </div>
      <div className='news-box_4'>
      <Newscard imeg={black2}  t='Art of Excellence Blog' c='The Art of Excellence Blog is where our writers
-      discuss education, diversity and inclusion, 
-     leadership and more! We also use this space to spotlight inspirational members of our community. ' />
+      discuss education. ' />
      </div>
      <div className='news-box_5'>
      <Newscard imeg={electro}  t='Technologies in Computer Science ' c='Tools in computer science are
-      pieces of software or hardware that help a programmer complete a task.
-       This can be anything from a simple text editor to a complex database system. ' />
+      pieces of software or hardware that help a programmer . ' />
      </div>
      <div className='news-box_6'>
      <Newscard  imeg={laptop}  t='Computer Science and Technology' c='Information 
-     Technology involves working both with hardware (e.g. CPUs, RAM, hard-disks) and software mobile applications.
-      Computer Science deals with  testing of software and software systems.' />
+     Technology involves working both with hardware (e.g. CPUs, RAM, hard-disks) .' />
      </div>
    
      <div className='news-box_7'>
      <Newscard imeg={nga}   t='Situation of children in NGA' c='Rwandan children have almost 
-     universal access to primary education. , approximately half of 
-     students are still not acquiring an adequate foundation of knowledge in primary school.' />
+     universal access to primary education. ' />
      </div>
      <div className='news-box_8'>
-     <Newscard imeg={fff}  t='The Top 10 Healthiest Foods for Kids' c="Anyone who's ever tried to feed a child (something other than cereal or ice cream) knows they don't always eat what you want.
-      Trying to figure out what to make to nourish their tiny bodies is stressful.
+     <Newscard imeg={fff}  t='The Top 10 Healthiest Foods for Kids' c="Anyone who's ever tried to feed a child (something other than cereal or ice cream) knows they don't always ea
        " />
      </div>
      </div>
